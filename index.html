@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript errors logger</title>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+	<style>
+    	.wrapper {
+    		width: 960px;
+			margin: 0 auto;
+			padding-top: 30px;
+    	}
+	</style>
+
+</head>
+<body>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-69575515-1', {
+	  	'cookieDomain': 'none'
+	  });
+	  ga('send', 'pageview');
+	</script>
+	
+	<div class="wrapper">
+			<h1>JavaScript Error Handler</h1>
+	
+			<div class="well center-block">
+				<p>
+					<button class="vanilla-error btn btn-success btn-lg">Make JavaScript Error</button>
+				</p>
+
+
+				<p>
+					<button class="jquery-error btn btn-success btn-lg">Make jQuery Error</button>
+				</p>
+
+				<p>
+					<button class="ajax-error btn btn-success btn-lg">Make AJAX Error</button>
+				</p>
+			</div>
+	</div>
+
+
+	<script type="text/javascript" src="/handlers/vanilla-handler.js"></script>
+	<script type="text/javascript" src="/handlers/jquery-handler.js"></script>
+	<script type="text/javascript" src="/handlers/ajax-handler.js"></script>
+
+	<script type="text/javascript" src="error-emiters.js"></script>
+
+</body>
+</html>
