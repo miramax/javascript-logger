@@ -1,6 +1,6 @@
 {
   "name": "js-errors-logger",
-  "version": "0.1",
+  "version": "0.0.1",
   "description": "Veeam Hackathon 2015",
   "main": "server.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "dependencies": {},
   "engines": {
-    "node": "0.12.2"
+    "node": "0.12.7"
   },
   "repository": {
     "type": "git",
