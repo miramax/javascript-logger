@@ -1,0 +1,23 @@
+{
+  "name": "js-errors-logger",
+  "version": "0.1",
+  "description": "Veeam Hackathon 2015",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": "0.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miramax/javascript-logger"
+  },
+  "keywords": [
+    "node",
+    "veeam",
+    "javascript logger"
+  ],
+  "license": "MIT"
+}
